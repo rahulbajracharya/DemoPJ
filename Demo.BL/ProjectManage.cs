@@ -31,6 +31,7 @@ namespace Demo.BL
         }
       }
     }
+    //search specific product
    public List<ProductDetailModel> searchdetail(string id)
    {
      using (var db = new ProductContext())
