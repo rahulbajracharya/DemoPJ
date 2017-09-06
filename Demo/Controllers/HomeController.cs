@@ -26,6 +26,10 @@ namespace Demo.Controllers
       return View();
     }
     //Add new item
+    /// <summary>
+    /// laksjdlkasjdlkajsdlkajsdl
+    /// </summary>
+    /// <returns></returns>
     public ActionResult Add()
     {
       ViewBag.Title = "Add new Product";
