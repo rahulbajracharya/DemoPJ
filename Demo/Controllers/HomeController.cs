@@ -16,12 +16,19 @@ namespace Demo.Controllers
     {
       IProduct = _iproduct;
     }
+    //Home
     public ActionResult Index()
     {
       ViewBag.Title = "Home Page";
       List<ProductDetailModel> listOfProduct = IProduct.showDetails();
       ViewData["listofProduct"] = listOfProduct;
 
+      return View();
+    }
+    //Add new item
+    public ActionResult Add()
+    {
+      ViewBag.Title = "Add new Product";
       return View();
     }
   }
