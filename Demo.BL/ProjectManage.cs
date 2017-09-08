@@ -61,7 +61,7 @@ namespace Demo.BL
        }
      }
    }
-
+    //show all details
    public List<ProductDetailModel> showDetails()
    {
      using (var db = new ProductContext())
