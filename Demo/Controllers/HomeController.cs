@@ -26,6 +26,7 @@ namespace Demo.Controllers
     public ActionResult Search()
     {
       ViewBag.Title = "Search";
+      ViewBag.message="Some message";
       return View();
     }
   }
