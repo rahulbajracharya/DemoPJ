@@ -16,7 +16,6 @@ namespace Demo.Controllers
     {
       IProduct = _iproduct;
     }
-    //Home
     public ActionResult Index()
     {
       ViewBag.Title = "Home Page";
@@ -25,14 +24,9 @@ namespace Demo.Controllers
 
       return View();
     }
-    //Add new item
-    /// <summary>
-    /// laksjdlkasjdlkajsdlkajsdl
-    /// </summary>
-    /// <returns></returns>
-    public ActionResult Add()
+    public ActionResult Search()
     {
-      ViewBag.Title = "Add new Product";
+      ViewBag.Title = "Search";
       return View();
     }
   }
