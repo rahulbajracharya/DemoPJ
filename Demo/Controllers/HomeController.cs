@@ -14,7 +14,7 @@ namespace Demo.Controllers
 
     public HomeController(IProduct _iproduct)
     {
-      IProduct = _iproduct;
+      IProduct = _iproduct; //inversion of control
     }
     public ActionResult Index()
     {
