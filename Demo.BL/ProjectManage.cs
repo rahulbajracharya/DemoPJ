@@ -11,7 +11,11 @@ namespace Demo.BL
 {
   public class ProjectManage : IProduct
   {
-
+    /// <summary>
+    /// Comments
+    /// </summary>
+    /// <param name="product"></param>
+    /// <returns></returns>
    public bool SaveProducts(ProductDetailModel product)
     {
       using (var db = new ProductContext())
