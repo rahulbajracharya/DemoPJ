@@ -20,8 +20,7 @@ namespace Demo.Controllers
     {
       ViewBag.Title = "Home Page";
       List<ProductDetailModel> listOfProduct = IProduct.showDetails();
-      ViewData["listofProduct"] = listOfProduct;
-
+      ViewData["listofProduct"] = listOfProduct;//get list of products
       return View();
     }
     public ActionResult Search()
