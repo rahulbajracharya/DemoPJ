@@ -17,6 +17,7 @@ namespace Demo.Controllers
       IProduct = _iproduct; //inversion of control
     }
     //index
+    //index yeah yeah
     public ActionResult Index()
     {
       ViewBag.Title = "Home Page";

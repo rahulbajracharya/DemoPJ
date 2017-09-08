@@ -11,6 +11,7 @@ using Demo.Models;
 namespace Demo.Controllers
 {
    [RoutePrefix("api/Product")] 
+  //product controller
   public class ProductController : ApiController
   {
     IProduct iproducts;
